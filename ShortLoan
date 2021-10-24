@@ -1,0 +1,5 @@
+  CREATE TABLE shortLoan(
+Record_R INT ,
+time_R VARCHAR(20) ,
+status VARCHAR(30),
+CONSTRAINT Record_R_pk PRIMARY KEY (Record_R));
