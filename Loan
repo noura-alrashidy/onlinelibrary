@@ -1,0 +1,7 @@
+CREATE TABLE Loan(
+Number_loan INT not null,
+dueDate date ,
+Start_loan DATE not null,
+end_loan Date not null,
+typeLoan varchar(30)  ,
+CONSTRAINT Number_loane_pk primary key (Number_loan));
