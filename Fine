@@ -1,0 +1,7 @@
+      CREATE TABLE fine1(
+amount_fine INT not null,
+status VARCHAR(20),
+due_date date not null,
+fine_number INT not null,
+dascripionn VARCHAR(50) not null ,
+constraint fine_number_pk PRIMARY KEY (fine_number));
